@@ -4,7 +4,9 @@
 
 Clique sur **Jouer** : le jeu passe en plein écran. **Échap** permet d'en sortir. La progression est conservée dans ce navigateur.
 
-Version **0.5.0-web** : jambes séparées et vêtements corrigés pour les 10 personnages, Dylan équipé de rollers dans les trois pistes, transparences des 12 décors et du domaine réparées. Police bitmap originale, menus textuels sans cadres ajoutés, couleurs et sélection pulsée natives. Freinage, super-saut et vitesses rollers corrigés par comparaison avec le code MIPS. Déplacements sur les parcours natifs à 30 Hz, introduction Talas en quatre plans, portes du domaine, autorisations et trajets des tuyaux. Les 74 évaluations ISO 45001 et la sauvegarde sont conservées.
+Version **0.6.0-web** : palette rose convertie en orange au rendu, Boulon avec atlas256×256/portrait64×64 et Aurélien à la place du T-rex bleu, avec son squelette et 11 animations. Rendu du monde512×240pixels en plein écran sans lissage. Le chien déjà présent est conservé, son origine PS1 reste à vérifier.
+
+Versions précédentes : jambes séparées et vêtements corrigés pour les 10 personnages, Dylan équipé de rollers dans les trois pistes, transparences des 12 décors et du domaine réparées. Police bitmap originale, menus textuels sans cadres ajoutés, couleurs et sélection pulsée natives. Freinage, super-saut et vitesses rollers corrigés par comparaison avec le code MIPS. Déplacements sur les parcours natifs à 30 Hz, introduction Talas en quatre plans, portes du domaine, autorisations et trajets des tuyaux. Les 74 évaluations ISO 45001 et la sauvegarde sont conservées.
 
 Q/D ou flèches gauche/droite : suivre le parcours ; Espace : saut et second saut après relâchement ; Ctrl, S ou flèche bas : accroupi ; E ou Haut : porte ; E : parler ; R : prendre/déposer ; H : domaine ; M : carnet ; L : documents.
 
