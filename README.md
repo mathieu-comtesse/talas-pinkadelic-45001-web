@@ -4,7 +4,9 @@
 
 Clique sur **Jouer** : le jeu passe en plein écran. **Échap** permet d'en sortir. La progression est conservée dans ce navigateur.
 
-Version **0.6.0-web** : palette rose convertie en orange au rendu, Boulon avec atlas256×256/portrait64×64 et Aurélien à la place du T-rex bleu, avec son squelette et 11 animations. Rendu du monde512×240pixels en plein écran sans lissage. Le chien déjà présent est conservé, son origine PS1 reste à vérifier.
+Version **0.7.0-web** : raccords d’escalier du hangar corrigés, semelles ajustées après les animations, 12 missions rattachées aux chapitres ISO et les 15 arguments d’Aurélien réunis au Leadership. Son nouveau modèle conserve le corps, les textures et les 11 animations du T-rex natif, avec costume, cheveux clairsemés et cigare.
+
+Le rendu conserve la palette rose convertie en orange au rendu, Boulon avec atlas256×256/portrait64×64 et Aurélien à la place du T-rex bleu, avec son squelette et 11 animations. Rendu du monde512×240pixels en plein écran sans lissage. Le chien déjà présent est conservé, son origine PS1 reste à vérifier.
 
 Versions précédentes : jambes séparées et vêtements corrigés pour les 10 personnages, Dylan équipé de rollers dans les trois pistes, transparences des 12 décors et du domaine réparées. Police bitmap originale, menus textuels sans cadres ajoutés, couleurs et sélection pulsée natives. Freinage, super-saut et vitesses rollers corrigés par comparaison avec le code MIPS. Déplacements sur les parcours natifs à 30 Hz, introduction Talas en quatre plans, portes du domaine, autorisations et trajets des tuyaux. Les 74 évaluations ISO 45001 et la sauvegarde sont conservées.
 
