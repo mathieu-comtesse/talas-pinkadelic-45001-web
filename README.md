@@ -6,7 +6,9 @@ Clique sur **Jouer** : le jeu passe en plein écran. **Échap** permet d'en sort
 
 Banane ramassable en se tournant automatiquement, quête du singe liée au chapitre4 et étapes explicites dans les douze missions. Gardiens animés au repos/refus/acceptation, passage maintenu fermé pendant leur ouverture. Ennemis orientés sur leur parcours, contacts bloquants, recul et assommage. Contacts des semelles sur les marches visibles et refus des plafonds trop bas corrigés. Même police native avec contours lissés ; orange commun #FF8420 mesuré sur le gilet de Dylan.
 
-Version **0.10.0-web** : chantier avec bombe à mèche native, mur friable et pique-nique pour le chien original PORTE1. Les trois poursuivants surveillent leurs objets respectifs ; vol, portage, retour et dépôt suivent leurs clips natifs et les liaisons du niveau. Le troisième attend l'ouverture de PORTE2. Le chien ajouté Rivet est retiré de ce niveau. Le trajet continu bombe→mur est vérifié avec les ennemis et le moteur réels ; les autres interactions utilisent des préparations isolées.
+Version **0.11.0-web** : banane redressée, trajet continu depuis l’arrivée sur le pont, visibilité vérifiée et sauvegarde incohérente réparée sans effacer la campagne. Indication du pont supérieur à gauche.
+
+Version précédente **0.10.0-web** : chantier avec bombe à mèche native, mur friable et pique-nique pour le chien original PORTE1. Les trois poursuivants surveillent leurs objets respectifs ; vol, portage, retour et dépôt suivent leurs clips natifs et les liaisons du niveau. Le troisième attend l'ouverture de PORTE2. Le chien ajouté Rivet est retiré de ce niveau. Le trajet continu bombe→mur est vérifié avec les ennemis et le moteur réels ; les autres interactions utilisent des préparations isolées.
 
 Le paquebot Luxitania, 134 modèles natifs, 397 animations, 1 879 pièces aux positions sources, cachettes, transferts entre sous-scènes, Planivore bureaucrate et Aurélien/T-rex au Leadership sont conservés. Les trois courses se terminent sur leur clé native. Les textes et objets portent les thèmes des sept chapitres ISO45001 ; les 74 échanges SST sont conservés.
 
