@@ -2,6 +2,8 @@
 
 [Jouer dans le navigateur](https://mathieu-comtesse.github.io/talas-pinkadelic-45001-web/)
 
+Correctif du lanceur **0.9.1** : la police native est une vraie police web, visible sans surlignage et conservee pendant la selection. Un chargement de police echoue laisse un texte de secours lisible. Le moteur du jeu reste en 0.9.0.
+
 Clique sur **Jouer** : le jeu passe en plein écran. **Échap** permet d'en sortir. La progression est conservée dans ce navigateur.
 
 Banane ramassable en se tournant automatiquement, quête du singe liée au chapitre4 et étapes explicites dans les douze missions. Gardiens animés au repos/refus/acceptation, passage maintenu fermé pendant leur ouverture. Ennemis orientés sur leur parcours, contacts bloquants, recul et assommage. Contacts des semelles sur les marches visibles et refus des plafonds trop bas corrigés. Même police native avec contours lissés ; orange commun #FF8420 mesuré sur le gilet de Dylan.

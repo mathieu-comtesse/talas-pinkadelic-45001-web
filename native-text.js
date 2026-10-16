@@ -1,19 +1,6 @@
 (() => {
- const atlas=new Image(),order='0123456789XEIT?YSNOPAUCVBRGMW:D.LHFK!J;\'"/-()QÄZ';
- const ids=new Map([...order].map((c,i)=>[c,i+2]));ids.set('…',54);['←','→','↑','↓'].forEach((c,i)=>ids.set(c,55+i));
- function normal(s){return s.toUpperCase().replace(/[’‘]/g,"'").replace(/[–—]/g,'-').replace(/Œ/g,'O').replace(/Æ/g,'A').normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
- function paint(el){if(!atlas.complete||!atlas.naturalWidth||!el.offsetWidth)return;const style=getComputedStyle(el),size=parseFloat(style.fontSize),advance=size*7.5/16,padding=parseFloat(style.paddingLeft)||0,width=Math.ceil(el.clientWidth),max=Math.max(1,Math.floor((width-padding*2)/advance));
- const words=normal(el.innerText).split(/\n/),lines=[];for(const para of words){let line='';for(const word of para.split(/\s+/)){if(line&&line.length+1+word.length>max){lines.push(line);line=word;}else line+=(line?' ':'')+word;}lines.push(line);}
- const lineHeight=size*1.5,height=Math.max(Math.ceil(lines.length*lineHeight+(parseFloat(style.paddingTop)||0)*2),Math.ceil(el.clientHeight));
- const c=document.createElement('canvas');const dpr=Math.min(3,Math.max(1,devicePixelRatio||1));c.width=Math.ceil(width*dpr);c.height=Math.ceil(height*dpr);const g=c.getContext('2d');g.scale(dpr,dpr);g.imageSmoothingEnabled=true;g.imageSmoothingQuality='high';let y=(height-lines.length*lineHeight)/2;
- for(const line of lines){let x=(width-line.length*advance)/2;for(const char of line){const id=ids.get(char);if(id!==undefined){const n=id-2;g.drawImage(atlas,n%21*48,Math.floor(n/21)*64,48,64,x,y,advance,size);}x+=advance;}y+=lineHeight;}
- const selected=el.matches('button:hover,button:focus-visible,#start');const tint=selected?'#efef00':el.matches('h1,h2')?'#fd0000':el.matches('button')?'#ff8420':'#ffffff';
- const mask=document.createElement('canvas');mask.width=c.width;mask.height=c.height;mask.getContext('2d').drawImage(c,0,0);g.globalCompositeOperation='multiply';g.fillStyle=tint;g.fillRect(0,0,width,height);g.globalCompositeOperation='destination-in';g.drawImage(mask,0,0,width,height);
- el.style.setProperty('--native-text','url("'+c.toDataURL()+'")');el.style.minHeight=height+'px';el.classList.add('native-raster');
- }
- function redraw(){document.querySelectorAll('#cover h1,#cover h2,#cover p,button,#help h2,#help p').forEach(paint);}
+ // Typography is real selectable text using PinkadelicNativeWeb.ttf.
+ // A failure of this optional backdrop conversion must never hide any text.
  // Render-time palette swap: never overwrite the source PNG or its dimensions.
  const background=new Image();background.onload=()=>{const c=document.createElement('canvas');c.width=background.naturalWidth;c.height=background.naturalHeight;const g=c.getContext('2d');g.imageSmoothingEnabled=false;g.drawImage(background,0,0);const pixels=g.getImageData(0,0,c.width,c.height);for(let i=0;i<pixels.data.length;i+=4){const r=pixels.data[i],green=pixels.data[i+1],b=pixels.data[i+2],hi=Math.max(r,green,b),lo=Math.min(r,green,b),d=hi-lo;if(d<=0||d<hi*.02)continue;let h=hi===r?(green-b)/d:hi===green?2+(b-r)/d:4+(r-green)/d;if(h<0)h+=6;if((h>=4.5&&h<=355/60)||(h>=18/60&&h<=40/60&&d>=hi*.65)){pixels.data[i]=hi;pixels.data[i+1]=Math.round(lo+d*100/223);pixels.data[i+2]=lo;}}g.putImageData(pixels,0,0);document.documentElement.style.setProperty('--native-backdrop','url("'+c.toDataURL()+'")');};background.src='NativeBackdrop.png';
- atlas.onload=redraw;atlas.src='NativeFontReadable.png';window.addEventListener('resize',()=>{document.querySelectorAll('.native-raster').forEach(el=>el.style.minHeight='');redraw();});
- document.addEventListener('DOMContentLoaded',()=>{new MutationObserver(redraw).observe(document.getElementById('stage'),{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:["hidden"]});document.querySelectorAll('button').forEach(el=>['mouseenter','mouseleave','focus','blur'].forEach(event=>el.addEventListener(event,()=>paint(el))));redraw();});
 })();
