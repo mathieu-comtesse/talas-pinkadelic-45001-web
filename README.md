@@ -2,17 +2,17 @@
 
 [Jouer dans le navigateur](https://mathieu-comtesse.github.io/talas-pinkadelic-45001-web/)
 
-Correctif du lanceur **0.9.1** : la police native est une vraie police web, visible sans surlignage et conservee pendant la selection. Un chargement de police echoue laisse un texte de secours lisible. Le moteur du jeu reste en 0.9.0.
-
 Clique sur **Jouer** : le jeu passe en plein écran. **Échap** permet d'en sortir. La progression est conservée dans ce navigateur.
 
 Banane ramassable en se tournant automatiquement, quête du singe liée au chapitre4 et étapes explicites dans les douze missions. Gardiens animés au repos/refus/acceptation, passage maintenu fermé pendant leur ouverture. Ennemis orientés sur leur parcours, contacts bloquants, recul et assommage. Contacts des semelles sur les marches visibles et refus des plafonds trop bas corrigés. Même police native avec contours lissés ; orange commun #FF8420 mesuré sur le gilet de Dylan.
 
-Version **0.9.0-web** : paquebot Luxitania présenté avant la cale, 134 modèles natifs et 397 animations réintroduits, 1 879 pièces aux positions sources, objets à transporter, gardiens à satisfaire, cachettes avec le butin, patrouilles et poursuivants. Les volumes de transfert manquants rétablissent les passages entre les sous-scènes. Le Planivore bureaucrate garde le corps, les UV, les 23 os et les 12 animations de la plante originale. Aurélien/T-rex affronte trois bombes-engagements au chapitre Leadership. Les trois courses se terminent sur leur clé native, sans quota de pièces. Les textes et objets portent les thèmes des sept chapitres ISO45001 ; les 74 échanges SST sont conservés.
+Version **0.10.0-web** : chantier avec bombe à mèche native, mur friable et pique-nique pour le chien original PORTE1. Les trois poursuivants surveillent leurs objets respectifs ; vol, portage, retour et dépôt suivent leurs clips natifs et les liaisons du niveau. Le troisième attend l'ouverture de PORTE2. Le chien ajouté Rivet est retiré de ce niveau. Le trajet continu bombe→mur est vérifié avec les ennemis et le moteur réels ; les autres interactions utilisent des préparations isolées.
+
+Le paquebot Luxitania, 134 modèles natifs, 397 animations, 1 879 pièces aux positions sources, cachettes, transferts entre sous-scènes, Planivore bureaucrate et Aurélien/T-rex au Leadership sont conservés. Les trois courses se terminent sur leur clé native. Les textes et objets portent les thèmes des sept chapitres ISO45001 ; les 74 échanges SST sont conservés.
 
 Les nouvelles prises et déposes de Dylan utilisent les phases natives retargetées sur ses os existants. Son lancer est une gestuelle adaptée. Les portes demandent leurs objets correspondants ; les points faibles des boss, dégâts, cœurs et murs friables ont des actions physiques jouables. Le délai d’audit reste évalué à 45 minutes, mais ne bloque plus l’exploration après son expiration.
 
-Le rendu conserve la palette rose convertie en orange au rendu, Boulon avec atlas256×256/portrait64×64 et Aurélien à la place du T-rex bleu, avec son squelette et 11 animations. Rendu du monde512×240pixels en plein écran sans lissage. Le chien déjà présent est conservé, son origine PS1 reste à vérifier.
+Le rendu conserve la palette rose convertie en orange au rendu, Boulon avec atlas256×256/portrait64×64 et Aurélien à la place du T-rex bleu, avec son squelette et 11 animations. Rendu du monde512×240pixels en plein écran sans lissage. Le chien original du chantier est identifié dans ITEM04.PIN : modèle70/PORTE1, 128 sommets sources, 169 triangles, 17 os et quatre animations.
 
 Versions précédentes : jambes séparées et vêtements corrigés pour les 10 personnages, Dylan équipé de rollers dans les trois pistes, transparences des 12 décors et du domaine réparées. Police bitmap originale, menus textuels sans cadres ajoutés, couleurs et sélection pulsée natives. Freinage, super-saut et vitesses rollers corrigés par comparaison avec le code MIPS. Déplacements sur les parcours natifs à 30 Hz, introduction Talas en quatre plans, portes du domaine, autorisations et trajets des tuyaux. Les 74 évaluations ISO 45001 et la sauvegarde sont conservées.
 
