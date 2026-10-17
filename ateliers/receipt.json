@@ -1,0 +1,5214 @@
+{
+  "version": "0.12.0",
+  "created": "2026-10-17T09:17:07.257Z",
+  "baseURL": "http://127.0.0.1:48761/",
+  "width": 1280,
+  "height": 720,
+  "audio": false,
+  "caption": "Captures muettes du jeu réellement exécuté. Préparation isolée de chaque atelier ; aucune campagne utilisateur modifiée. Ce ne sont pas des parcours complets ni une preuve de parité intégrale avec le jeu original.",
+  "workshops": [
+    {
+      "level": 0,
+      "number": "01",
+      "title": "Le paquebot des angles morts",
+      "chapter": 4,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:17:07.456Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228630653,
+          "relativeSeconds": 3.184,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 0,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228632838,
+          "relativeSeconds": 5.369,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 0,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228641738,
+          "relativeSeconds": 14.269,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 0,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · banane rendue, repas animé, porte franchie puis refranchie après rechargement"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardianTraceTruncatedInConsole": true
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=0",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 0,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · banane rendue, repas animé, porte franchie puis refranchie après rechargement"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardianTraceTruncatedInConsole": true
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228642900,
+      "rawVideo": "_raw/atelier-01/page@6b69eabdaa3d282ad33aad55ce144178.webm",
+      "video": "atelier-01.mp4",
+      "videoBytes": 3525247,
+      "sha256": "af50038fc7e223769b46882899a0916e70a0f5483cf0c69b8bb23c0ebc970875",
+      "trim": {
+        "startSeconds": 5.019,
+        "durationSeconds": 10.25,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 10.24
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "256"
+          }
+        ],
+        "format": {
+          "duration": "10.240000"
+        }
+      },
+      "ended": "2026-10-17T09:17:24.382Z"
+    },
+    {
+      "level": 1,
+      "number": "02",
+      "title": "Engagement sur roulettes",
+      "chapter": 5,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:17:24.409Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228647563,
+          "relativeSeconds": 3.145,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 1,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228649856,
+          "relativeSeconds": 5.438,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 1,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228661542,
+          "relativeSeconds": 17.124,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 1,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · déplacement réel sur la piste à rollers",
+              "VALIDÉ · compteur de fiches conservé pendant le parcours"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=1",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 1,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · déplacement réel sur la piste à rollers",
+          "VALIDÉ · compteur de fiches conservé pendant le parcours"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228662925,
+      "rawVideo": "_raw/atelier-02/page@f4b073cff2246c79b0b0a41481cce857.webm",
+      "video": "atelier-02.mp4",
+      "videoBytes": 7023069,
+      "sha256": "b63984b61617ade0f63ccfb199e45bc93c41a6d4f5ca11797b00dac8388b5eb0",
+      "trim": {
+        "startSeconds": 5.088,
+        "durationSeconds": 13.035999999999998,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 13
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "325"
+          }
+        ],
+        "format": {
+          "duration": "13.000000"
+        }
+      },
+      "ended": "2026-10-17T09:17:45.203Z"
+    },
+    {
+      "level": 2,
+      "number": "03",
+      "title": "Le temple des grandes gueules",
+      "chapter": 5,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:17:45.205Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228668590,
+          "relativeSeconds": 3.375,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 2,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228670782,
+          "relativeSeconds": 5.567,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 2,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228687383,
+          "relativeSeconds": 22.168,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 2,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · prise de le mégaphone des travailleurs bâillonnés",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 38",
+              "VALIDÉ · prise de le banquet de la consultation",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 26",
+              "VALIDÉ · prise de la clé du comité sans représailles",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 27"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=2",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 2,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · prise de le mégaphone des travailleurs bâillonnés",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 38",
+          "VALIDÉ · prise de le banquet de la consultation",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 26",
+          "VALIDÉ · prise de la clé du comité sans représailles",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 27"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228688625,
+      "rawVideo": "_raw/atelier-03/page@3010953377dddad9ef3f27aa22c2264d.webm",
+      "video": "atelier-03.mp4",
+      "videoBytes": 4799484,
+      "sha256": "69b49907b6bc4aa7af2dc95b0bbbefa68ddc9c1907e77bb5e7784c5c39cc3df4",
+      "trim": {
+        "startSeconds": 5.217,
+        "durationSeconds": 17.951,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 17.92
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "448"
+          }
+        ],
+        "format": {
+          "duration": "17.920000"
+        }
+      },
+      "ended": "2026-10-17T09:18:10.704Z"
+    },
+    {
+      "level": 3,
+      "version": "0.12.0",
+      "passed": true,
+      "source": "Actual independent browser QA route; original pickup landing fixture, no intermediate restore",
+      "runtime": {
+        "passed": true,
+        "isolatedSmoke": true,
+        "routeReached": true,
+        "bombRetained": true,
+        "noIntermediateRestore": true,
+        "ticks": 362,
+        "expectedTicks": 362,
+        "blockedTicks": 0,
+        "stalledTicks": 2,
+        "healthBefore": 6,
+        "healthAfter": 6,
+        "remainingSeconds": 12,
+        "endProfile": 66,
+        "endSegment": 0,
+        "endDistance": 140,
+        "maxStep": 0.2885407507419586,
+        "samples": [
+          {
+            "tick": 8,
+            "profile": 62,
+            "segment": 0,
+            "distance": 152,
+            "remainingSeconds": 24,
+            "position": {
+              "x": 25.2265625,
+              "y": 7.552734375,
+              "z": 1.005859375
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 12,
+            "profile": 65,
+            "segment": 1,
+            "distance": 379,
+            "remainingSeconds": 24,
+            "position": {
+              "x": 24.7578125,
+              "y": 8.150390625,
+              "z": 1.005859375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 40,
+            "profile": 52,
+            "segment": 8,
+            "distance": 516,
+            "remainingSeconds": 23,
+            "position": {
+              "x": 21.484375,
+              "y": 8.384765625,
+              "z": 1.1796875
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 48,
+            "profile": 52,
+            "segment": 8,
+            "distance": 36,
+            "remainingSeconds": 22,
+            "position": {
+              "x": 20.546875,
+              "y": 9.345703125,
+              "z": 1.1796875
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 60,
+            "profile": 52,
+            "segment": 4,
+            "distance": 111,
+            "remainingSeconds": 22,
+            "position": {
+              "x": 19.130859375,
+              "y": 8.923828125,
+              "z": 1.193359375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 68,
+            "profile": 52,
+            "segment": 1,
+            "distance": 162,
+            "remainingSeconds": 22,
+            "position": {
+              "x": 18.17578125,
+              "y": 9.283203125,
+              "z": 1.19921875
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 84,
+            "profile": 46,
+            "segment": 9,
+            "distance": 76,
+            "remainingSeconds": 21,
+            "position": {
+              "x": 16.2890625,
+              "y": 9.2265625,
+              "z": 1.1796875
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 96,
+            "profile": 46,
+            "segment": 6,
+            "distance": 55,
+            "remainingSeconds": 21,
+            "position": {
+              "x": 14.884765625,
+              "y": 10.31640625,
+              "z": 1.283203125
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 100,
+            "profile": 46,
+            "segment": 4,
+            "distance": 165,
+            "remainingSeconds": 21,
+            "position": {
+              "x": 14.419921875,
+              "y": 10.203125,
+              "z": 1.369140625
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 104,
+            "profile": 46,
+            "segment": 3,
+            "distance": 103,
+            "remainingSeconds": 21,
+            "position": {
+              "x": 13.9609375,
+              "y": 10.5,
+              "z": 1.470703125
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 108,
+            "profile": 46,
+            "segment": 2,
+            "distance": 38,
+            "remainingSeconds": 21,
+            "position": {
+              "x": 13.501953125,
+              "y": 10.53515625,
+              "z": 1.57421875
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 112,
+            "profile": 46,
+            "segment": 1,
+            "distance": 56,
+            "remainingSeconds": 20,
+            "position": {
+              "x": 13.033203125,
+              "y": 10.3359375,
+              "z": 1.53125
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 116,
+            "profile": 37,
+            "segment": 6,
+            "distance": 43,
+            "remainingSeconds": 20,
+            "position": {
+              "x": 12.564453125,
+              "y": 10.408203125,
+              "z": 1.478515625
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 120,
+            "profile": 37,
+            "segment": 5,
+            "distance": 130,
+            "remainingSeconds": 20,
+            "position": {
+              "x": 12.09375,
+              "y": 11.005859375,
+              "z": 1.478515625
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 124,
+            "profile": 31,
+            "segment": 1,
+            "distance": 216,
+            "remainingSeconds": 20,
+            "position": {
+              "x": 11.625,
+              "y": 11.302734375,
+              "z": 1.552734375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 128,
+            "profile": 31,
+            "segment": 1,
+            "distance": 76,
+            "remainingSeconds": 20,
+            "position": {
+              "x": 11.3515625,
+              "y": 11.365234375,
+              "z": 1.552734375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 136,
+            "profile": 31,
+            "segment": 0,
+            "distance": 145,
+            "remainingSeconds": 20,
+            "position": {
+              "x": 10.576171875,
+              "y": 11.025390625,
+              "z": 1.80859375
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 140,
+            "profile": 32,
+            "segment": 1,
+            "distance": 210,
+            "remainingSeconds": 20,
+            "position": {
+              "x": 10.1328125,
+              "y": 11.623046875,
+              "z": 1.923828125
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 148,
+            "profile": 35,
+            "segment": 1,
+            "distance": 327,
+            "remainingSeconds": 19,
+            "position": {
+              "x": 9.18359375,
+              "y": 11.982421875,
+              "z": 1.908203125
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 152,
+            "profile": 35,
+            "segment": 1,
+            "distance": 184,
+            "remainingSeconds": 19,
+            "position": {
+              "x": 8.91015625,
+              "y": 11.810546875,
+              "z": 1.849609375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 156,
+            "profile": 35,
+            "segment": 0,
+            "distance": 408,
+            "remainingSeconds": 19,
+            "position": {
+              "x": 8.552734375,
+              "y": 11.748046875,
+              "z": 1.775390625
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 160,
+            "profile": 35,
+            "segment": 0,
+            "distance": 276,
+            "remainingSeconds": 19,
+            "position": {
+              "x": 8.294921875,
+              "y": 12.345703125,
+              "z": 1.775390625
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 164,
+            "profile": 35,
+            "segment": 0,
+            "distance": 104,
+            "remainingSeconds": 19,
+            "position": {
+              "x": 7.958984375,
+              "y": 12.708984375,
+              "z": 1.775390625
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 168,
+            "profile": 34,
+            "segment": 0,
+            "distance": 251,
+            "remainingSeconds": 19,
+            "position": {
+              "x": 7.740234375,
+              "y": 12.802734375,
+              "z": 1.775390625
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 172,
+            "profile": 34,
+            "segment": 0,
+            "distance": 313,
+            "remainingSeconds": 18,
+            "position": {
+              "x": 7.861328125,
+              "y": 12.748046875,
+              "z": 1.775390625
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 176,
+            "profile": 35,
+            "segment": 0,
+            "distance": 272,
+            "remainingSeconds": 18,
+            "position": {
+              "x": 8.287109375,
+              "y": 13.345703125,
+              "z": 1.775390625
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 188,
+            "profile": 38,
+            "segment": 0,
+            "distance": 224,
+            "remainingSeconds": 18,
+            "position": {
+              "x": 9.66796875,
+              "y": 13.533203125,
+              "z": 1.78515625
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 192,
+            "profile": 38,
+            "segment": 0,
+            "distance": 351,
+            "remainingSeconds": 18,
+            "position": {
+              "x": 9.9140625,
+              "y": 13.5,
+              "z": 1.791015625
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 204,
+            "profile": 43,
+            "segment": 1,
+            "distance": 102,
+            "remainingSeconds": 17,
+            "position": {
+              "x": 8.9296875,
+              "y": 14.58984375,
+              "z": 1.77734375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 208,
+            "profile": 43,
+            "segment": 0,
+            "distance": 501,
+            "remainingSeconds": 17,
+            "position": {
+              "x": 8.45703125,
+              "y": 14.5,
+              "z": 1.7890625
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 212,
+            "profile": 43,
+            "segment": 0,
+            "distance": 257,
+            "remainingSeconds": 17,
+            "position": {
+              "x": 7.982421875,
+              "y": 15.09765625,
+              "z": 1.80859375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 220,
+            "profile": 42,
+            "segment": 0,
+            "distance": 129,
+            "remainingSeconds": 17,
+            "position": {
+              "x": 7.732421875,
+              "y": 15.58984375,
+              "z": 1.818359375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 228,
+            "profile": 42,
+            "segment": 0,
+            "distance": 457,
+            "remainingSeconds": 17,
+            "position": {
+              "x": 8.37109375,
+              "y": 15.5,
+              "z": 1.79296875
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 236,
+            "profile": 38,
+            "segment": 0,
+            "distance": 39,
+            "remainingSeconds": 16,
+            "position": {
+              "x": 9.306640625,
+              "y": 16.4609375,
+              "z": 1.775390625
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 244,
+            "profile": 41,
+            "segment": 0,
+            "distance": 26,
+            "remainingSeconds": 16,
+            "position": {
+              "x": 10.2421875,
+              "y": 16.591796875,
+              "z": 1.779296875
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 252,
+            "profile": 39,
+            "segment": 0,
+            "distance": 371,
+            "remainingSeconds": 16,
+            "position": {
+              "x": 11.1796875,
+              "y": 17.552734375,
+              "z": 1.779296875
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 316,
+            "profile": 56,
+            "segment": 0,
+            "distance": 612,
+            "remainingSeconds": 14,
+            "position": {
+              "x": 18.673828125,
+              "y": 16.244047164916992,
+              "z": 1.89453125
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 320,
+            "profile": 56,
+            "segment": 0,
+            "distance": 732,
+            "remainingSeconds": 14,
+            "position": {
+              "x": 18.908203125,
+              "y": 16.099515914916992,
+              "z": 1.779296875
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 324,
+            "profile": 56,
+            "segment": 0,
+            "distance": 880,
+            "remainingSeconds": 14,
+            "position": {
+              "x": 19.197265625,
+              "y": 15.720609664916992,
+              "z": 1.779296875
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 328,
+            "profile": 56,
+            "segment": 0,
+            "distance": 968,
+            "remainingSeconds": 13,
+            "position": {
+              "x": 19.369140625,
+              "y": 15.107328414916992,
+              "z": 1.779296875
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 352,
+            "profile": 54,
+            "segment": 1,
+            "distance": 109,
+            "remainingSeconds": 13,
+            "position": {
+              "x": 21.939453125,
+              "y": 12.03125,
+              "z": 1.77734375
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 356,
+            "profile": 54,
+            "segment": 1,
+            "distance": 259,
+            "remainingSeconds": 13,
+            "position": {
+              "x": 22.232421875,
+              "y": 12.173828125,
+              "z": 1.77734375
+            },
+            "grounded": false,
+            "carrying": true
+          },
+          {
+            "tick": 360,
+            "profile": 66,
+            "segment": 0,
+            "distance": 56,
+            "remainingSeconds": 12,
+            "position": {
+              "x": 22.58984375,
+              "y": 12,
+              "z": 1.779296875
+            },
+            "grounded": true,
+            "carrying": true
+          },
+          {
+            "tick": 362,
+            "profile": 66,
+            "segment": 0,
+            "distance": 140,
+            "remainingSeconds": 12,
+            "position": {
+              "x": 22.75390625,
+              "y": 12,
+              "z": 1.779296875
+            },
+            "grounded": true,
+            "carrying": true
+          }
+        ],
+        "observations": [
+          "Real Adventure AdvanceMotion, native collision filters, active enemies, carried bomb and fuse used. No intermediate placement or flags forced by the driver.",
+          "The caller still tests actual drop, safe retreat and explosion opening; reaching the wall is a separate result."
+        ]
+      },
+      "video": "atelier-04.mp4",
+      "videoBytes": 12847020,
+      "sha256": "659b014345ac311408f5d1622cc9ffa0d2f69fac59c05bb97327c9ae8952658c",
+      "trim": {
+        "startSeconds": 85.862,
+        "durationSeconds": 15.901
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "398"
+          }
+        ],
+        "format": {
+          "duration": "15.920000"
+        }
+      },
+      "pageErrors": [],
+      "failures": [],
+      "scope": "Bomb transport to wall only. Does not certify a complete level or uninterrupted explosion/retreat. Separate R/drop/re-catch workshop route failed and is retained.",
+      "number": "04",
+      "title": "Le chantier des risques mal ficelés",
+      "chapter": 6,
+      "audio": false,
+      "isolatedContext": true,
+      "knownFailedPreparation": {
+        "video": "atelier-04-preparation-echec.mp4",
+        "failures": [
+          "Le scénario runtime ne déclare pas passed=true.",
+          "transport continu bombe→mur avec les ennemis actifs"
+        ],
+        "runtime": {
+          "passed": false,
+          "isolatedSmoke": true,
+          "routeReached": false,
+          "bombRetained": true,
+          "noIntermediateRestore": true,
+          "ticks": 362,
+          "expectedTicks": 362,
+          "blockedTicks": 0,
+          "stalledTicks": 10,
+          "healthBefore": 6,
+          "healthAfter": 6,
+          "remainingSeconds": 12,
+          "endProfile": 52,
+          "endSegment": 8,
+          "endDistance": 238,
+          "maxStep": 0.2859177589416504
+        }
+      },
+      "scopeFrench": "Trajet continu de la bombe jusqu’au mur. La scène de départ est préparée séparément ; cette vidéo ne montre pas un atelier complet. Une autre préparation avec pose/reprise manque encore le bon embranchement, sans perdre la bombe."
+    },
+    {
+      "level": 4,
+      "number": "05",
+      "title": "La serre des plans foireux",
+      "chapter": 6,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:19:48.441Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228791349,
+          "relativeSeconds": 2.901,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 4,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228793599,
+          "relativeSeconds": 5.151,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 4,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228802248,
+          "relativeSeconds": 13.8,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 4,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · point faible 1 neutralisé par l'attaque",
+              "VALIDÉ · point faible 2 neutralisé par l'attaque",
+              "VALIDÉ · point faible 3 neutralisé par l'attaque",
+              "VALIDÉ · le Planivore libère la clé après ses trois faiblesses"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=4",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 4,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · point faible 1 neutralisé par l'attaque",
+          "VALIDÉ · point faible 2 neutralisé par l'attaque",
+          "VALIDÉ · point faible 3 neutralisé par l'attaque",
+          "VALIDÉ · le Planivore libère la clé après ses trois faiblesses"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228803505,
+      "rawVideo": "_raw/atelier-05/page@39cfb6e0486d96223a4f7d7983969ddf.webm",
+      "video": "atelier-05.mp4",
+      "videoBytes": 5431290,
+      "sha256": "0e0ef80c728e0ca163aa5532542fadfbade2dcc02b5b634bdb06d7b868824882",
+      "trim": {
+        "startSeconds": 4.801,
+        "durationSeconds": 9.999,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 9.96
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "249"
+          }
+        ],
+        "format": {
+          "duration": "9.960000"
+        }
+      },
+      "ended": "2026-10-17T09:20:04.573Z"
+    },
+    {
+      "level": 5,
+      "number": "06",
+      "title": "Le château des diplômes fantômes",
+      "chapter": 7,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:20:04.575Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228807523,
+          "relativeSeconds": 2.94,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 5,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228809674,
+          "relativeSeconds": 5.091,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 5,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228825972,
+          "relativeSeconds": 21.389,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 5,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · prise de le repas des moyens réellement fournis",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 37",
+              "VALIDÉ · prise de la clé du document à jour",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 38",
+              "VALIDÉ · prise de le kit de compétence sans poudre aux yeux",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 36"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=5",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 5,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · prise de le repas des moyens réellement fournis",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 37",
+          "VALIDÉ · prise de la clé du document à jour",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 38",
+          "VALIDÉ · prise de le kit de compétence sans poudre aux yeux",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 36"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228827203,
+      "rawVideo": "_raw/atelier-06/page@037d7de419989d12b0db7280eefe3b08.webm",
+      "video": "atelier-06.mp4",
+      "videoBytes": 5611113,
+      "sha256": "1f1c9d2aefd64526ed5d8a2011857d9837e78c4b10ceb334a607b4b8183dac41",
+      "trim": {
+        "startSeconds": 4.741,
+        "durationSeconds": 17.648,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 17.68
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "442"
+          }
+        ],
+        "format": {
+          "duration": "17.680000"
+        }
+      },
+      "ended": "2026-10-17T09:20:28.515Z"
+    },
+    {
+      "level": 6,
+      "number": "07",
+      "title": "La piste des cerveaux en dérapage",
+      "chapter": 7,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:20:28.517Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228831457,
+          "relativeSeconds": 2.932,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 6,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228833602,
+          "relativeSeconds": 5.077,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 6,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228845207,
+          "relativeSeconds": 16.682,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 6,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · déplacement réel sur la piste à rollers",
+              "VALIDÉ · compteur de fiches conservé pendant le parcours"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=6",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 6,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · déplacement réel sur la piste à rollers",
+          "VALIDÉ · compteur de fiches conservé pendant le parcours"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228846427,
+      "rawVideo": "_raw/atelier-07/page@7a1af9cbb331d21ecaf992b3785be5e2.webm",
+      "video": "atelier-07.mp4",
+      "videoBytes": 7433630,
+      "sha256": "9b8be3f5ff86c4e21108ba68a6f5abc46825dea112f21da63fa9fd38a310495c",
+      "trim": {
+        "startSeconds": 4.727,
+        "durationSeconds": 12.954999999999998,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 12.92
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "323"
+          }
+        ],
+        "format": {
+          "duration": "12.920000"
+        }
+      },
+      "ended": "2026-10-17T09:20:47.902Z"
+    },
+    {
+      "level": 7,
+      "number": "08",
+      "title": "La préhistoire des protections collectives",
+      "chapter": 8,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:20:47.905Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228851572,
+          "relativeSeconds": 3.655,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 7,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228853768,
+          "relativeSeconds": 5.851,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 7,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228870326,
+          "relativeSeconds": 22.409,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 7,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · prise de la clé du changement maîtrisé",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 25",
+              "VALIDÉ · prise de le carter que le mammouth ne peut pas signer",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 18",
+              "VALIDÉ · prise de le repas du sous-traitant préhistorique",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 16"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=7",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 7,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · prise de la clé du changement maîtrisé",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 25",
+          "VALIDÉ · prise de le carter que le mammouth ne peut pas signer",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 18",
+          "VALIDÉ · prise de le repas du sous-traitant préhistorique",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 16"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228871557,
+      "rawVideo": "_raw/atelier-08/page@7d46f6c1c98dc84c38419562e5e36d35.webm",
+      "video": "atelier-08.mp4",
+      "videoBytes": 7959416,
+      "sha256": "e92e4a64eb2ed5aeaa31a63a39732f295739f0a7d416b86866b5fea1335df958",
+      "trim": {
+        "startSeconds": 5.501,
+        "durationSeconds": 17.907999999999998,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 17.92
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "448"
+          }
+        ],
+        "format": {
+          "duration": "17.920000"
+        }
+      },
+      "ended": "2026-10-17T09:21:14.182Z"
+    },
+    {
+      "level": 8,
+      "number": "09",
+      "title": "Aurélien, tyran aux bras courts",
+      "chapter": 5,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:21:14.185Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228877832,
+          "relativeSeconds": 3.637,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 8,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228880036,
+          "relativeSeconds": 5.841,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 8,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228892527,
+          "relativeSeconds": 18.332,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 8,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · engagement 1 ramassé",
+              "VALIDÉ · engagement 1 atteint Aurélien après un lancer réel",
+              "VALIDÉ · engagement 2 ramassé",
+              "VALIDÉ · engagement 2 atteint Aurélien après un lancer réel",
+              "VALIDÉ · engagement 3 ramassé",
+              "VALIDÉ · engagement 3 atteint Aurélien après un lancer réel"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=8",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 8,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · engagement 1 ramassé",
+          "VALIDÉ · engagement 1 atteint Aurélien après un lancer réel",
+          "VALIDÉ · engagement 2 ramassé",
+          "VALIDÉ · engagement 2 atteint Aurélien après un lancer réel",
+          "VALIDÉ · engagement 3 ramassé",
+          "VALIDÉ · engagement 3 atteint Aurélien après un lancer réel"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228893726,
+      "rawVideo": "_raw/atelier-09/page@d9ea48949466add288bb0fa8237be18e.webm",
+      "video": "atelier-09.mp4",
+      "videoBytes": 4415902,
+      "sha256": "f8887658c50164278adacdd610c06b0123fd0b01bf5beedfe56f4b57aa2b549d",
+      "trim": {
+        "startSeconds": 5.491,
+        "durationSeconds": 13.841000000000001,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 13.84
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "346"
+          }
+        ],
+        "format": {
+          "duration": "13.840000"
+        }
+      },
+      "ended": "2026-10-17T09:21:34.773Z"
+    },
+    {
+      "level": 9,
+      "number": "10",
+      "title": "Le chantier des compteurs affolés",
+      "chapter": 9,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:21:34.775Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228897721,
+          "relativeSeconds": 2.939,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 9,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228899953,
+          "relativeSeconds": 5.171,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 9,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228911544,
+          "relativeSeconds": 16.762,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 9,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · déplacement réel sur la piste à rollers",
+              "VALIDÉ · compteur de fiches conservé pendant le parcours"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=9",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 9,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · déplacement réel sur la piste à rollers",
+          "VALIDÉ · compteur de fiches conservé pendant le parcours"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228912753,
+      "rawVideo": "_raw/atelier-10/page@c1aed6e51608fb2a350f8a0846d71cfd.webm",
+      "video": "atelier-10.mp4",
+      "videoBytes": 8746077,
+      "sha256": "b5b3e37069f0a25e9392b04e0d760a0d03c6407174b2533d3337a3c5d6970bed",
+      "trim": {
+        "startSeconds": 4.821,
+        "durationSeconds": 12.941,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 12.96
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "324"
+          }
+        ],
+        "format": {
+          "duration": "12.960000"
+        }
+      },
+      "ended": "2026-10-17T09:21:54.027Z"
+    },
+    {
+      "level": 10,
+      "number": "11",
+      "title": "L’incident qui ne passera plus",
+      "chapter": 10,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:21:54.029Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228916998,
+          "relativeSeconds": 2.963,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 10,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228919149,
+          "relativeSeconds": 5.114,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 10,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228935455,
+          "relativeSeconds": 21.42,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 10,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · prise de le plateau des causes qu'on ne cache plus",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 8",
+              "VALIDÉ · prise de la clé de l'action corrective vérifiée",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 33",
+              "VALIDÉ · prise de l'enquête qui gratte sous le pansement",
+              "VALIDÉ · objet accepté et animation ouverte pour le gardien 30"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=10",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 10,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · prise de le plateau des causes qu'on ne cache plus",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 8",
+          "VALIDÉ · prise de la clé de l'action corrective vérifiée",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 33",
+          "VALIDÉ · prise de l'enquête qui gratte sous le pansement",
+          "VALIDÉ · objet accepté et animation ouverte pour le gardien 30"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228936753,
+      "rawVideo": "_raw/atelier-11/page@6ed25e43409e3e7e7b373aff01063b0a.webm",
+      "video": "atelier-11.mp4",
+      "videoBytes": 3906804,
+      "sha256": "93128fa368fdf298f28c514fd3801dffa270533f29a07abda924bcc6a8cc8670",
+      "trim": {
+        "startSeconds": 4.764,
+        "durationSeconds": 17.656000000000002,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 17.64
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "441"
+          }
+        ],
+        "format": {
+          "duration": "17.640000"
+        }
+      },
+      "ended": "2026-10-17T09:22:17.883Z"
+    },
+    {
+      "level": 11,
+      "number": "12",
+      "title": "L’audit des squelettes du grenier",
+      "chapter": 9,
+      "version": "0.12.0",
+      "started": "2026-10-17T09:22:17.886Z",
+      "audio": false,
+      "source": "captured Unity browser runtime",
+      "isolatedContext": true,
+      "events": [
+        {
+          "wallMs": 1792228940789,
+          "relativeSeconds": 2.889,
+          "source": "console",
+          "value": {
+            "phase": "ready",
+            "version": "0.12.0",
+            "level": 11,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228943041,
+          "relativeSeconds": 5.141,
+          "source": "console",
+          "value": {
+            "phase": "capture",
+            "version": "0.12.0",
+            "level": 11,
+            "passed": false,
+            "isolatedSetup": true,
+            "steps": [],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        },
+        {
+          "wallMs": 1792228954446,
+          "relativeSeconds": 16.546,
+          "source": "console",
+          "value": {
+            "phase": "completed",
+            "version": "0.12.0",
+            "level": 11,
+            "passed": true,
+            "isolatedSetup": true,
+            "steps": [
+              "VALIDÉ · fantôme 6 confronté par trois actions réelles",
+              "VALIDÉ · fantôme 7 confronté par trois actions réelles",
+              "VALIDÉ · fantôme 8 confronté par trois actions réelles"
+            ],
+            "failures": [],
+            "constructionRoute": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "routeReached": false,
+              "bombRetained": false,
+              "noIntermediateRestore": true,
+              "ticks": 0,
+              "expectedTicks": 0,
+              "blockedTicks": 0,
+              "stalledTicks": 0,
+              "healthBefore": 0,
+              "healthAfter": 0,
+              "remainingSeconds": 0,
+              "endProfile": 0,
+              "endSegment": 0,
+              "endDistance": 0,
+              "maxStep": 0,
+              "samples": [],
+              "observations": []
+            },
+            "guardian": {
+              "passed": false,
+              "isolatedSmoke": false,
+              "bananaPicked": false,
+              "accepted": false,
+              "objectConsumed": false,
+              "pairSaved": false,
+              "continuousCrossed": false,
+              "reloadedCrossed": false,
+              "clip3Advanced": false,
+              "clip2Playing": false,
+              "retreatsBehind": false,
+              "blockDuringMeal": false,
+              "rootIdentity": false,
+              "noIntermediateRestore": true,
+              "noSuccessFlagsWritten": true,
+              "fixturePlacements": 0,
+              "mealSamples": 0,
+              "blockedMealSamples": 0,
+              "clip3MinimumTime": 999,
+              "clip3MaximumTime": 0,
+              "clip3Duration": 0,
+              "minimumBone22Z": 999,
+              "maximumBone22Z": -999,
+              "maximumSampleStep": 0,
+              "doorX": 0,
+              "continuousEndX": 0,
+              "reloadedEndX": 0,
+              "guardianEuler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "continuousEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedStart": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "reloadedEnd": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "samples": [],
+              "observations": []
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "httpErrors": [],
+      "pageErrors": [],
+      "passed": true,
+      "url": "http://127.0.0.1:48761/?atelier=11",
+      "runtime": {
+        "phase": "completed",
+        "version": "0.12.0",
+        "level": 11,
+        "passed": true,
+        "isolatedSetup": true,
+        "steps": [
+          "VALIDÉ · fantôme 6 confronté par trois actions réelles",
+          "VALIDÉ · fantôme 7 confronté par trois actions réelles",
+          "VALIDÉ · fantôme 8 confronté par trois actions réelles"
+        ],
+        "failures": [],
+        "constructionRoute": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "routeReached": false,
+          "bombRetained": false,
+          "noIntermediateRestore": true,
+          "ticks": 0,
+          "expectedTicks": 0,
+          "blockedTicks": 0,
+          "stalledTicks": 0,
+          "healthBefore": 0,
+          "healthAfter": 0,
+          "remainingSeconds": 0,
+          "endProfile": 0,
+          "endSegment": 0,
+          "endDistance": 0,
+          "maxStep": 0,
+          "samples": [],
+          "observations": []
+        },
+        "guardian": {
+          "passed": false,
+          "isolatedSmoke": false,
+          "bananaPicked": false,
+          "accepted": false,
+          "objectConsumed": false,
+          "pairSaved": false,
+          "continuousCrossed": false,
+          "reloadedCrossed": false,
+          "clip3Advanced": false,
+          "clip2Playing": false,
+          "retreatsBehind": false,
+          "blockDuringMeal": false,
+          "rootIdentity": false,
+          "noIntermediateRestore": true,
+          "noSuccessFlagsWritten": true,
+          "fixturePlacements": 0,
+          "mealSamples": 0,
+          "blockedMealSamples": 0,
+          "clip3MinimumTime": 999,
+          "clip3MaximumTime": 0,
+          "clip3Duration": 0,
+          "minimumBone22Z": 999,
+          "maximumBone22Z": -999,
+          "maximumSampleStep": 0,
+          "doorX": 0,
+          "continuousEndX": 0,
+          "reloadedEndX": 0,
+          "guardianEuler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "continuousEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedStart": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "reloadedEnd": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "samples": [],
+          "observations": []
+        }
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "renderWidth": 1280,
+        "renderHeight": 720
+      },
+      "closedWallMs": 1792228955656,
+      "rawVideo": "_raw/atelier-12/page@e8e1e946e9f209b32b10681c97e96b47.webm",
+      "video": "atelier-12.mp4",
+      "videoBytes": 2056276,
+      "sha256": "f8bd3313b46f66a766ea83b2e56ba920fcba976944c4e0c0fdfd0158f3b00a41",
+      "trim": {
+        "startSeconds": 4.791,
+        "durationSeconds": 12.754999999999999,
+        "preRollSeconds": 0.35,
+        "endRollSeconds": 1,
+        "clock": "Node wall clock at Playwright newPage; raw source retained",
+        "approximate": true,
+        "actualDurationSeconds": 12.76
+      },
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "nb_frames": "319"
+          }
+        ],
+        "format": {
+          "duration": "12.760000"
+        }
+      },
+      "ended": "2026-10-17T09:22:36.637Z"
+    }
+  ],
+  "browserVersion": "155.0.4283.45",
+  "passed": true,
+  "knownFailedPreparationCount": 1
+}

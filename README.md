@@ -1,5 +1,9 @@
 # Talas · Pinkadelic 45001 — navigateur
 
+[Voir Dylan et les 12 ateliers en vidéo](https://mathieu-comtesse.github.io/talas-pinkadelic-45001-web/ateliers/)
+
+Les vidéos montrent des démonstrations avec préparations isolées, pas des parcours complets. Le chantier inclut le transport de bombe vérifié ; une autre préparation avec pose/reprise reste en échec et son extrait est conservé.
+
 [Jouer dans le navigateur](https://mathieu-comtesse.github.io/talas-pinkadelic-45001-web/)
 
 Clique sur **Jouer** : le jeu passe en plein écran. **Échap** permet d'en sortir. La progression est conservée dans ce navigateur.
