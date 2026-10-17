@@ -1,16 +1,14 @@
 # Talas · Pinkadelic 45001 — navigateur
 
-[Voir Dylan et les 12 ateliers en vidéo](https://mathieu-comtesse.github.io/talas-pinkadelic-45001-web/ateliers/)
-
-Les vidéos montrent des démonstrations avec préparations isolées, pas des parcours complets. Le chantier inclut le transport de bombe vérifié ; une autre préparation avec pose/reprise reste en échec et son extrait est conservé.
-
 [Jouer dans le navigateur](https://mathieu-comtesse.github.io/talas-pinkadelic-45001-web/)
 
 Clique sur **Jouer** : le jeu passe en plein écran. **Échap** permet d'en sortir. La progression est conservée dans ce navigateur.
 
 Banane ramassable en se tournant automatiquement, quête du singe liée au chapitre4 et étapes explicites dans les douze missions. Gardiens animés au repos/refus/acceptation, passage maintenu fermé pendant leur ouverture. Ennemis orientés sur leur parcours, contacts bloquants, recul et assommage. Contacts des semelles sur les marches visibles et refus des plafonds trop bas corrigés. Même police native avec contours lissés ; orange commun #FF8420 mesuré sur le gilet de Dylan.
 
-Version **0.12.0-web** : Dylan anime l’accueil avec les cinq clips ITEMSEL ; tapement du pied droit et variantes, cadrage natif. Passage du singe après repas, fiches terrain à collecter et surveillance des objets étendue aux six niveaux sources.
+Version **0.13.0-web** : fond ajouté supprimé dans les douze zones et le domaine, décors natifs préservés. Ombre d’accueil, carte des douze salles, trois vies d’Aurélien, bulles contextuelles, lueur additive des cœurs et volée de petites feuilles. Les bulles restent simplifiées et la fidélité intégrale des caméras et de l’IA reste à vérifier.
+
+Version précédente **0.12.0-web** : Dylan anime l’accueil avec les cinq clips ITEMSEL ; tapement du pied droit et variantes, cadrage natif. Passage du singe après repas, fiches terrain à collecter et surveillance des objets étendue aux six niveaux sources.
 
 Version précédente **0.11.0-web** : banane redressée, trajet continu depuis l’arrivée sur le pont, visibilité vérifiée et sauvegarde incohérente réparée sans effacer la campagne. Indication du pont supérieur à gauche.
 
