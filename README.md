@@ -6,7 +6,11 @@ Clique sur **Jouer** : le jeu passe en plein écran. **Échap** permet d'en sort
 
 Banane ramassable en se tournant automatiquement, quête du singe liée au chapitre4 et étapes explicites dans les douze missions. Gardiens animés au repos/refus/acceptation, passage maintenu fermé pendant leur ouverture. Ennemis orientés sur leur parcours, contacts bloquants, recul et assommage. Contacts des semelles sur les marches visibles et refus des plafonds trop bas corrigés. Même police native avec contours lissés ; orange commun #FF8420 mesuré sur le gilet de Dylan.
 
-Version **0.13.0-web** : fond ajouté supprimé dans les douze zones et le domaine, décors natifs préservés. Ombre d’accueil, carte des douze salles, trois vies d’Aurélien, bulles contextuelles, lueur additive des cœurs et volée de petites feuilles. Les bulles restent simplifiées et la fidélité intégrale des caméras et de l’IA reste à vérifier.
+Version **0.13.2-web** : vrais fonds des niveaux. Le panorama natif de chaque niveau (cylindre de quadrilatères texturés et dégradés, section 2 des fichiers NIVEAU) est dessiné avant le décor avec la rotation, la translation et le défilement du code original ; il s’éteint dans les cellules intérieures. Le domaine reprend son ciel bleu uni. Précision mesurée contre des vidéos de commandes GPU du disque d’origine : moins d’un demi-pixel. Le défilement suit la vitesse horizontale de Dylan.
+
+Version précédente **0.13.1-web** : bulle de pensée portée depuis le code natif (nuage de huit bouffées de 32×32, bloc blanc 42×28, queue pulsante, croissance par paliers 12×10, glissement de 20 pixels quand Dylan se retourne), icône L1 près des ennemis et icône des murs friables.
+
+Version précédente **0.13.0-web** : fond ajouté supprimé dans les douze zones et le domaine, décors natifs préservés. Ombre d’accueil, carte des douze salles, trois vies d’Aurélien, bulles contextuelles, lueur additive des cœurs et volée de petites feuilles. La fidélité intégrale des caméras et de l’IA reste à vérifier.
 
 Version précédente **0.12.0-web** : Dylan anime l’accueil avec les cinq clips ITEMSEL ; tapement du pied droit et variantes, cadrage natif. Passage du singe après repas, fiches terrain à collecter et surveillance des objets étendue aux six niveaux sources.
 
