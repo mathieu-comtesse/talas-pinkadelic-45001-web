@@ -16,13 +16,33 @@ button{font:inherit;font-size:20px;color:var(--pink);background:transparent;bord
 #toolbar{position:absolute;right:max(8px,env(safe-area-inset-right));bottom:max(42px,env(safe-area-inset-bottom));display:flex;gap:6px;z-index:3;opacity:.35;transition:opacity .2s}#toolbar:hover,#toolbar:focus-within,body:not([data-game-ready=true]) #toolbar{opacity:1}#toolbar button{padding:6px 10px;font-size:14px}
 #help{position:absolute;inset:0;z-index:4;display:grid;place-content:center;padding:24px;background:#080808dd;overflow:auto}#help[hidden],#cover[hidden],#verification[hidden]{display:none!important}#help article{max-width:680px;padding:24px;background:transparent}#help h2{margin-top:0;color:var(--red)}#help p{line-height:1.6;font-size:20px}
 #verification{position:absolute;bottom:0;left:0;z-index:5;max-height:28vh;max-width:100%;overflow:auto;background:#181410;font:11px monospace;white-space:pre-wrap;margin:0;padding:8px}
+
+/* Touch pad: virtual stick and buttons shaped like a game controller (shown on touch devices once the game runs). */
+#pad{position:absolute;inset:0;z-index:6;pointer-events:none;display:none;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;font-family:PinkadelicNative,monospace}
+body[data-touch=true][data-game-ready=true] #pad{display:block}
+#pad *{touch-action:none;-webkit-tap-highlight-color:transparent}
+#pad{--u:min(14vmin,76px)}
+#pad .pb{position:absolute;pointer-events:auto;width:var(--u);height:var(--u);border-radius:50%;background:radial-gradient(circle at 35% 30%,#6a6a76,#2a2a32 72%);border:3px solid #ffffffcc;color:#fff;font-size:calc(var(--u)*.46);line-height:calc(var(--u) - 6px);text-align:center;box-shadow:0 4px 0 #0008;padding:0;min-height:0}
+#pad .pb img{position:absolute;left:8%;top:14%;width:84%;image-rendering:pixelated;pointer-events:none}
+#pad .pb.on{filter:brightness(1.7);transform:translateY(2px);box-shadow:0 2px 0 #0008}
+#pad .pb small{display:block;position:absolute;left:-10px;right:-10px;bottom:-16px;font-size:11px;line-height:12px;color:#ffe9a0;text-shadow:0 1px 0 #000;pointer-events:none}
+#diamond{position:absolute;right:max(16px,env(safe-area-inset-right));bottom:max(26px,env(safe-area-inset-bottom));width:calc(var(--u)*3.15);height:calc(var(--u)*3.15);pointer-events:none}
+#padA{left:calc(var(--u)*1.075);bottom:0}#padB{right:0;top:calc(var(--u)*1.075)}#padX{left:0;top:calc(var(--u)*1.075)}#padY{left:calc(var(--u)*1.075);top:0}
+#padMenu{width:calc(var(--u)*.72);height:calc(var(--u)*.72);font-size:calc(var(--u)*.3);line-height:calc(var(--u)*.72 - 6px)}
+#padMenu{left:50%;margin-left:calc(var(--u)*-.36);top:max(8px,env(safe-area-inset-top))}
+#stick{position:absolute;left:max(18px,env(safe-area-inset-left));bottom:max(22px,env(safe-area-inset-bottom));width:min(34vmin,190px);height:min(34vmin,190px);border-radius:50%;pointer-events:auto;background:radial-gradient(circle,#2a2a30aa 0 62%,#d8d8d855 63% 67%,#00000033 68%);border:3px solid #ffffffaa}
+#thumb{position:absolute;left:50%;top:50%;width:46%;height:46%;margin:-23% 0 0 -23%;border-radius:50%;background:radial-gradient(circle at 35% 30%,#8a8a96,#34343c 70%);border:3px solid #ffffff;box-shadow:0 3px 0 #0008}
+body[data-touch=true] #toolbar{right:auto;left:max(8px,env(safe-area-inset-left));top:max(8px,env(safe-area-inset-top));bottom:auto}
 .native-raster{background-image:none!important}
 </style></head><body>
 <main id="stage" aria-label="Jeu Talas en plein écran">
 <canvas id="unity-canvas" width="1280" height="960" tabindex="0" aria-label="Jeu Talas, commandes au clavier"></canvas>
 <section id="cover"><h1>TALAS · PINKADELIC 45001</h1><h2>Dylan prépare l’audit avec Boulon.</h2><p>Embarque, ramasse les fiches terrain, porte les objets et affronte les patrons les plus indigestes.<br>Sept chapitres. Douze zones. Tes choix ont des conséquences.</p><button id="start">Jouer</button><p>Jouer ouvre le plein écran. Échap permet d’en sortir.</p><progress id="progress" value="0" max="1" hidden aria-label="Chargement du jeu"></progress><p id="status" role="status" aria-live="polite">La progression est conservée dans ce navigateur.</p></section>
 <nav id="toolbar" aria-label="Affichage et commandes"><button id="fullscreen">Plein écran</button><button id="help-open">Commandes</button></nav>
-<section id="help" hidden aria-label="Commandes du jeu"><article><h2>Commandes</h2><p><strong>Q/D ou gauche/droite</strong> : suivre le parcours<br><strong>Espace</strong> : sauter · relâcher puis appuyer : second saut · maintenir : ralentir la chute<br><strong>Ctrl, S ou flèche bas</strong> : s’accroupir<br><strong>E ou flèche haut</strong> : parler / ouvrir une porte · <strong>1–4</strong> : répondre · <strong>Entrée</strong> : poursuivre<br><strong>R</strong> : prendre ou déposer · <strong>C</strong> : cachette avec ton butin<br><strong>F</strong> : frapper / lancer l’objet porté<br><strong>H</strong> : revenir au domaine · <strong>M</strong> : carnet · <strong>L</strong> : documents · <strong>Échap</strong> : menu</p><button id="help-close">Retour au jeu</button></article></section>
+<section id="help" hidden aria-label="Commandes du jeu"><article><h2>Commandes</h2><p><strong>Q/D ou gauche/droite</strong> : suivre le parcours<br><strong>Espace</strong> : sauter · relâcher puis appuyer : second saut · maintenir : ralentir la chute<br><strong>Ctrl, S ou flèche bas</strong> : s’accroupir<br><strong>E ou flèche haut</strong> : parler / ouvrir une porte · <strong>1–4</strong> : répondre · <strong>Entrée</strong> : poursuivre<br><strong>R</strong> : prendre ou déposer · <strong>C</strong> : cachette avec ton butin<br><strong>F</strong> : frapper / lancer l’objet porté<br><strong>H</strong> : revenir au domaine · <strong>M</strong> : carnet · <strong>L</strong> : documents · <strong>Échap</strong> : menu</p><p><strong>Mobile</strong> : joystick à gauche pour suivre le parcours et s’accroupir · <strong>Croix</strong> saut · <strong>Rond</strong> parler / ouvrir / se cacher / continuer un dialogue · <strong>Triangle</strong> prendre / déposer · <strong>L1</strong> frapper / lancer · <strong>MENU</strong> pause. Ce sont les boutons du jeu d’origine.</p><button id="help-close">Retour au jeu</button></article></section>
+<div id="pad" aria-label="Manette tactile"><div id="stick"><div id="thumb"></div></div>
+<div id="diamond"><button class="pb" id="padA" data-key="Space" aria-label="Croix · sauter"><img src="pad-cross.png" alt=""><small>saut</small></button><button class="pb" id="padB" data-key="KeyE" aria-label="Rond · action"><img src="pad-circle.png" alt=""><small>action</small></button><button class="pb" id="padX" data-key="KeyR" aria-label="Triangle · prendre"><img src="pad-triangle.png" alt=""><small>prendre</small></button><button class="pb" id="padY" data-key="KeyF" aria-label="L1 · frapper"><img src="pad-l1.png" alt=""><small>frapper</small></button></div>
+<button class="pb" id="padMenu" data-key="Escape" aria-label="Menu">MENU</button></div>
 <pre id="verification" hidden></pre></main>
 <script src="native-text.js?v=091"></script>
 <script>
@@ -34,7 +54,7 @@ function enterFullscreen(){const request=stage.requestFullscreen||stage.webkitRe
 document.addEventListener('fullscreenchange',()=>{const active=!!document.fullscreenElement;fullscreen.textContent=active?'Réduire':'Plein écran';document.body.dataset.fullscreen=active?'native':'window';canvas.focus();});
 start.addEventListener('click',()=>{if(start.disabled)return;if(!qa)enterFullscreen();start.disabled=true;start.textContent='Chargement…';progress.hidden=false;status.textContent='Préparation des ateliers…';
 const loader=document.createElement('script');loader.src='Build/Web.loader.js';loader.onerror=()=>fail('Le chargement a échoué. Recharge cette page pour réessayer.');
-loader.onload=()=>createUnityInstance(canvas,{dataUrl:'Build/Web.data.unityweb',frameworkUrl:'Build/Web.framework.js.unityweb',codeUrl:'Build/Web.wasm.unityweb',streamingAssetsUrl:'StreamingAssets',companyName:'Talas',productName:'Talas · Pinkadelic 45001',productVersion:"0.13.2",devicePixelRatio:1,matchWebGLToCanvasSize:true,showBanner:(message,type)=>{if(type==='error')fail(message)}},fraction=>{progress.value=fraction;status.textContent='Chargement du jeu · '+Math.round(fraction*100)+' %'}).then(instance=>{game=instance;cover.hidden=true;canvas.focus();document.body.dataset.gameReady='true'}).catch(fail);document.body.appendChild(loader);
+loader.onload=()=>createUnityInstance(canvas,{dataUrl:'Build/Web.data.unityweb',frameworkUrl:'Build/Web.framework.js.unityweb',codeUrl:'Build/Web.wasm.unityweb',streamingAssetsUrl:'StreamingAssets',companyName:'Talas',productName:'Talas · Pinkadelic 45001',productVersion:"0.13.3",devicePixelRatio:1,matchWebGLToCanvasSize:true,showBanner:(message,type)=>{if(type==='error')fail(message)}},fraction=>{progress.value=fraction;status.textContent='Chargement du jeu · '+Math.round(fraction*100)+' %'}).then(instance=>{game=instance;cover.hidden=true;canvas.focus();document.body.dataset.gameReady='true'}).catch(fail);document.body.appendChild(loader);
 });
 function fail(message){status.textContent=String(message);start.textContent='Recharger';start.disabled=false;start.onclick=()=>location.reload();progress.hidden=true;document.body.dataset.gameError=String(message)}
 fullscreen.addEventListener('click',()=>{if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});else enterFullscreen();canvas.focus();});
@@ -43,4 +63,27 @@ document.getElementById('help-open').addEventListener('click',()=>showHelp(true)
 document.getElementById('help-close').addEventListener('click',()=>showHelp(false));
 document.addEventListener('keydown',event=>{if(event.code==='Escape'&&!help.hidden){event.stopPropagation();showHelp(false);}},true);
 canvas.addEventListener('pointerdown',()=>canvas.focus());canvas.addEventListener('keydown',event=>{if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.code))event.preventDefault()});
+
+// ---- Touch pad: sends the same keyboard events the keyboard sends, so every control keeps working. ----
+(()=>{
+const touch=('ontouchstart' in window)||navigator.maxTouchPoints>0||matchMedia('(pointer:coarse)').matches;if(!touch&&!new URLSearchParams(location.search).has('touchpad'))return;
+document.body.dataset.touch='true';
+const codes={Space:[' ',32],KeyE:['e',69],KeyR:['r',82],KeyF:['f',70],KeyC:['c',67],Enter:['Enter',13],Escape:['Escape',27],ArrowLeft:['ArrowLeft',37],ArrowRight:['ArrowRight',39],ArrowUp:['ArrowUp',38],ArrowDown:['ArrowDown',40]};
+const down=new Set();
+function send(code,pressed){if(pressed===down.has(code))return;pressed?down.add(code):down.delete(code);const [key,kc]=codes[code];const init={code,key,bubbles:true,cancelable:true,composed:true};const ev=new KeyboardEvent(pressed?'keydown':'keyup',init);try{Object.defineProperty(ev,'keyCode',{get:()=>kc});Object.defineProperty(ev,'which',{get:()=>kc});}catch{}canvas.dispatchEvent(ev);window.__talasTouchKeys=[...down];}
+const stick=document.getElementById('stick'),thumb=document.getElementById('thumb');let stickId=null;
+function stickMove(event){const r=stick.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,radius=r.width/2;let dx=(event.clientX-cx)/radius,dy=(event.clientY-cy)/radius;const m=Math.hypot(dx,dy);if(m>1){dx/=m;dy/=m;}
+thumb.style.transform='translate('+(dx*radius*.5)+'px,'+(dy*radius*.5)+'px)';
+send('ArrowLeft',dx<-.3);send('ArrowRight',dx>.3);send('ArrowDown',dy>.55);send('ArrowUp',dy<-.6);}
+function stickEnd(){thumb.style.transform='';['ArrowLeft','ArrowRight','ArrowDown','ArrowUp'].forEach(c=>send(c,false));stickId=null;}
+stick.addEventListener('pointerdown',e=>{if(stickId!==null)return;stickId=e.pointerId;stick.setPointerCapture(e.pointerId);stickMove(e);e.preventDefault();});
+stick.addEventListener('pointermove',e=>{if(e.pointerId===stickId){stickMove(e);e.preventDefault();}});
+for(const type of ['pointerup','pointercancel','lostpointercapture'])stick.addEventListener(type,e=>{if(e.pointerId===stickId)stickEnd();});
+for(const button of document.querySelectorAll('#pad .pb')){const code=button.dataset.key;
+button.addEventListener('pointerdown',e=>{button.setPointerCapture(e.pointerId);button.classList.add('on');send(code,true);e.preventDefault();});
+for(const type of ['pointerup','pointercancel','lostpointercapture'])button.addEventListener(type,()=>{button.classList.remove('on');send(code,false);});
+button.addEventListener('contextmenu',e=>e.preventDefault());}
+document.addEventListener('contextmenu',e=>{if(e.target.closest&&e.target.closest('#pad'))e.preventDefault();});
+window.addEventListener('blur',()=>{for(const c of [...down])send(c,false);});
+})();
 </script></body></html>
