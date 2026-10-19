@@ -1,6 +1,6 @@
 {
-  "version": "0.13.4",
-  "created": "2026-10-18T14:10:57.529Z",
+  "version": "0.13.5",
+  "created": "2026-10-19T07:30:43.965Z",
   "baseURL": "http://127.0.0.1:48761/",
   "width": 1280,
   "height": 720,
@@ -12,19 +12,19 @@
       "number": "01",
       "title": "Le paquebot des angles morts",
       "chapter": 4,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:10:57.736Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:30:44.166Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332660203,
-          "relativeSeconds": 2.456,
+          "wallMs": 1792395046766,
+          "relativeSeconds": 2.584,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 0,
             "passed": false,
             "isolatedSetup": true,
@@ -109,12 +109,12 @@
           }
         },
         {
-          "wallMs": 1792332662404,
-          "relativeSeconds": 4.657,
+          "wallMs": 1792395048942,
+          "relativeSeconds": 4.76,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 0,
             "passed": false,
             "isolatedSetup": true,
@@ -199,12 +199,12 @@
           }
         },
         {
-          "wallMs": 1792332671237,
-          "relativeSeconds": 13.49,
+          "wallMs": 1792395057742,
+          "relativeSeconds": 13.56,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 0,
             "passed": true,
             "isolatedSetup": true,
@@ -241,7 +241,7 @@
       "url": "http://127.0.0.1:48761/?atelier=0",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 0,
         "passed": true,
         "isolatedSetup": true,
@@ -275,19 +275,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332672528,
-      "rawVideo": "_raw/atelier-01/page@f2a91f6aa2d8bb801fcf1b3f08eee06e.webm",
+      "closedWallMs": 1792395058939,
+      "rawVideo": "_raw/atelier-01/page@55dd87a76f33350d50e6450e8c857826.webm",
       "video": "atelier-01.mp4",
-      "videoBytes": 3681043,
-      "sha256": "024eeddb84a8fde9bda17e05422de9bcc8585a27f7ed35682a91848b222d255f",
+      "videoBytes": 3760280,
+      "sha256": "2c17d263068d022a046af919e1ad88474970691d69158918f3033850787b2707",
       "trim": {
-        "startSeconds": 4.307,
-        "durationSeconds": 10.183,
+        "startSeconds": 4.41,
+        "durationSeconds": 10.15,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 10.2
+        "actualDurationSeconds": 10.12
       },
       "media": {
         "programs": [],
@@ -297,33 +297,33 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "255"
+            "nb_frames": "253"
           }
         ],
         "format": {
-          "duration": "10.200000"
+          "duration": "10.120000"
         }
       },
-      "ended": "2026-10-18T14:11:13.525Z"
+      "ended": "2026-10-19T07:31:00.053Z"
     },
     {
       "level": 1,
       "number": "02",
       "title": "Engagement sur roulettes",
       "chapter": 5,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:11:13.554Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:31:00.082Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332675585,
-          "relativeSeconds": 2.023,
+          "wallMs": 1792395062358,
+          "relativeSeconds": 2.268,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 1,
             "passed": false,
             "isolatedSetup": true,
@@ -408,12 +408,12 @@
           }
         },
         {
-          "wallMs": 1792332677806,
-          "relativeSeconds": 4.244,
+          "wallMs": 1792395064648,
+          "relativeSeconds": 4.558,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 1,
             "passed": false,
             "isolatedSetup": true,
@@ -498,12 +498,12 @@
           }
         },
         {
-          "wallMs": 1792332689413,
-          "relativeSeconds": 15.851,
+          "wallMs": 1792395076281,
+          "relativeSeconds": 16.191,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 1,
             "passed": true,
             "isolatedSetup": true,
@@ -598,7 +598,7 @@
       "url": "http://127.0.0.1:48761/?atelier=1",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 1,
         "passed": true,
         "isolatedSetup": true,
@@ -690,19 +690,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332690690,
-      "rawVideo": "_raw/atelier-02/page@6235e2546fc7c8c464d4affc6e68527e.webm",
+      "closedWallMs": 1792395077623,
+      "rawVideo": "_raw/atelier-02/page@20f43390f13a9ade18983f932f059a56.webm",
       "video": "atelier-02.mp4",
-      "videoBytes": 6280406,
-      "sha256": "012a7e1a4eb5a1eecd34b0b8178da708b2f4387cf3364e7df70d56bd6e870547",
+      "videoBytes": 6192835,
+      "sha256": "26bd09fa0ba71a288cb5a5f6660c8bc2ac92e5f847e649b8a825c8d31c99d7cd",
       "trim": {
-        "startSeconds": 3.894,
-        "durationSeconds": 12.956999999999999,
+        "startSeconds": 4.208,
+        "durationSeconds": 12.982999999999999,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 12.92
+        "actualDurationSeconds": 12.96
       },
       "media": {
         "programs": [],
@@ -712,33 +712,33 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "323"
+            "nb_frames": "324"
           }
         ],
         "format": {
-          "duration": "12.920000"
+          "duration": "12.960000"
         }
       },
-      "ended": "2026-10-18T14:11:31.881Z"
+      "ended": "2026-10-19T07:31:19.189Z"
     },
     {
       "level": 2,
       "number": "03",
       "title": "Le temple des grandes gueules",
       "chapter": 5,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:11:31.883Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:31:19.190Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332693917,
-          "relativeSeconds": 2.027,
+          "wallMs": 1792395081590,
+          "relativeSeconds": 2.392,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 2,
             "passed": false,
             "isolatedSetup": true,
@@ -823,12 +823,12 @@
           }
         },
         {
-          "wallMs": 1792332696157,
-          "relativeSeconds": 4.267,
+          "wallMs": 1792395083770,
+          "relativeSeconds": 4.572,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 2,
             "passed": false,
             "isolatedSetup": true,
@@ -913,12 +913,12 @@
           }
         },
         {
-          "wallMs": 1792332712413,
-          "relativeSeconds": 20.523,
+          "wallMs": 1792395100155,
+          "relativeSeconds": 20.957,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 2,
             "passed": true,
             "isolatedSetup": true,
@@ -1017,7 +1017,7 @@
       "url": "http://127.0.0.1:48761/?atelier=2",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 2,
         "passed": true,
         "isolatedSetup": true,
@@ -1113,19 +1113,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332713565,
-      "rawVideo": "_raw/atelier-03/page@756840abe0b0b5dca6e9e772399633ae.webm",
+      "closedWallMs": 1792395101408,
+      "rawVideo": "_raw/atelier-03/page@6e90b92dd1a15be1f0e5f69afdf61367.webm",
       "video": "atelier-03.mp4",
-      "videoBytes": 5378691,
-      "sha256": "f32f527cdd5b4eaf826e28ba1ff26b339cf557edb0d38ec03bef30e1646e4d46",
+      "videoBytes": 5158687,
+      "sha256": "a68df62b6dfeee687ad133ffbce73e716f13de5b46ddd5b7ed4b73de421f0259",
       "trim": {
-        "startSeconds": 3.917,
-        "durationSeconds": 17.606,
+        "startSeconds": 4.222,
+        "durationSeconds": 17.735,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 17.64
+        "actualDurationSeconds": 17.76
       },
       "media": {
         "programs": [],
@@ -1135,18 +1135,18 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "441"
+            "nb_frames": "444"
           }
         ],
         "format": {
-          "duration": "17.640000"
+          "duration": "17.760000"
         }
       },
-      "ended": "2026-10-18T14:11:54.914Z"
+      "ended": "2026-10-19T07:31:43.107Z"
     },
     {
       "level": 3,
-      "version": "0.13.4",
+      "version": "0.13.5",
       "passed": true,
       "source": "Actual independent browser QA route; original pickup landing fixture, no intermediate restore",
       "runtime": {
@@ -1790,11 +1790,11 @@
         ]
       },
       "video": "atelier-04.mp4",
-      "videoBytes": 13443168,
-      "sha256": "3cb853078fa7d4108919f96fc54d6cd804933eb4ffbe765d5a1cb378e149c7dd",
+      "videoBytes": 13223415,
+      "sha256": "e4b1bd0a893b07ac5262c03a1e16533ae68ee3484d7990ccfe8423ded62d094b",
       "trim": {
-        "startSeconds": 86.702,
-        "durationSeconds": 16.059
+        "startSeconds": 86.827,
+        "durationSeconds": 16.082
       },
       "media": {
         "programs": [],
@@ -1803,11 +1803,11 @@
           {
             "width": 1280,
             "height": 720,
-            "nb_frames": "402"
+            "nb_frames": "403"
           }
         ],
         "format": {
-          "duration": "16.080000"
+          "duration": "16.120000"
         }
       },
       "pageErrors": [],
@@ -1826,7 +1826,7 @@
         ],
         "runtime": {
           "phase": "completed",
-          "version": "0.13.4",
+          "version": "0.13.5",
           "level": 3,
           "passed": false,
           "isolatedSetup": true,
@@ -1848,17 +1848,17 @@
             "ticks": 362,
             "expectedTicks": 362,
             "blockedTicks": 0,
-            "stalledTicks": 9,
+            "stalledTicks": 2,
             "healthBefore": 8,
-            "healthAfter": 8,
+            "healthAfter": 7,
             "remainingSeconds": 12,
-            "endProfile": 52,
-            "endSegment": 8,
-            "endDistance": 301,
-            "maxStep": 0.2859177589416504
+            "endProfile": 36,
+            "endSegment": 0,
+            "endDistance": -25,
+            "maxStep": 0.9450582265853882
           }
         },
-        "version": "0.13.4"
+        "version": "0.13.5"
       },
       "scopeFrench": "Trajet continu de la bombe au mur depuis une préparation isolée. La préparation différente en échec reste consultable. Ce n’est pas un atelier complet."
     },
@@ -1867,19 +1867,19 @@
       "number": "05",
       "title": "La serre des plans foireux",
       "chapter": 6,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:12:32.822Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:32:19.950Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332754867,
-          "relativeSeconds": 2.038,
+          "wallMs": 1792395142101,
+          "relativeSeconds": 2.143,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 4,
             "passed": false,
             "isolatedSetup": true,
@@ -1964,12 +1964,12 @@
           }
         },
         {
-          "wallMs": 1792332757030,
-          "relativeSeconds": 4.201,
+          "wallMs": 1792395144252,
+          "relativeSeconds": 4.294,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 4,
             "passed": false,
             "isolatedSetup": true,
@@ -2054,12 +2054,12 @@
           }
         },
         {
-          "wallMs": 1792332765904,
-          "relativeSeconds": 13.075,
+          "wallMs": 1792395153117,
+          "relativeSeconds": 13.159,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 4,
             "passed": true,
             "isolatedSetup": true,
@@ -2156,7 +2156,7 @@
       "url": "http://127.0.0.1:48761/?atelier=4",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 4,
         "passed": true,
         "isolatedSetup": true,
@@ -2250,19 +2250,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332767112,
-      "rawVideo": "_raw/atelier-05/page@5ee3d820d6eae8c06e2208b1bd48bb1e.webm",
+      "closedWallMs": 1792395154417,
+      "rawVideo": "_raw/atelier-05/page@42bb286e2ebe32940fa973f341ffa28d.webm",
       "video": "atelier-05.mp4",
-      "videoBytes": 5394513,
-      "sha256": "83e919f8366ac1beb1c35cdeb203cc7f5ce84d7219a3ea206bc10fc54e4f4732",
+      "videoBytes": 5246720,
+      "sha256": "15858d8da6f4446dd4cc85e30ec422e4d31a414fca806e4273af856a55d27bdb",
       "trim": {
-        "startSeconds": 3.851,
-        "durationSeconds": 10.224,
+        "startSeconds": 3.944,
+        "durationSeconds": 10.215,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 10.2
+        "actualDurationSeconds": 10.24
       },
       "media": {
         "programs": [],
@@ -2272,33 +2272,33 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "255"
+            "nb_frames": "256"
           }
         ],
         "format": {
-          "duration": "10.200000"
+          "duration": "10.240000"
         }
       },
-      "ended": "2026-10-18T14:12:48.150Z"
+      "ended": "2026-10-19T07:32:35.606Z"
     },
     {
       "level": 5,
       "number": "06",
       "title": "Le château des diplômes fantômes",
       "chapter": 7,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:12:48.152Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:32:35.608Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332770260,
-          "relativeSeconds": 2.102,
+          "wallMs": 1792395157843,
+          "relativeSeconds": 2.228,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 5,
             "passed": false,
             "isolatedSetup": true,
@@ -2383,12 +2383,12 @@
           }
         },
         {
-          "wallMs": 1792332772411,
-          "relativeSeconds": 4.253,
+          "wallMs": 1792395160003,
+          "relativeSeconds": 4.388,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 5,
             "passed": false,
             "isolatedSetup": true,
@@ -2473,12 +2473,12 @@
           }
         },
         {
-          "wallMs": 1792332788800,
-          "relativeSeconds": 20.642,
+          "wallMs": 1792395176382,
+          "relativeSeconds": 20.767,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 5,
             "passed": true,
             "isolatedSetup": true,
@@ -2577,7 +2577,7 @@
       "url": "http://127.0.0.1:48761/?atelier=5",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 5,
         "passed": true,
         "isolatedSetup": true,
@@ -2673,14 +2673,14 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332789917,
-      "rawVideo": "_raw/atelier-06/page@2faa7c0d0bbec34fe9498c25092da9df.webm",
+      "closedWallMs": 1792395177651,
+      "rawVideo": "_raw/atelier-06/page@9509a81c6d509c8308bc69b679daf0a1.webm",
       "video": "atelier-06.mp4",
-      "videoBytes": 5980897,
-      "sha256": "c77f0ab37f0febf5526113eb21a83dfb8c9930d1ec702e952c7a7b2ad57f6b2d",
+      "videoBytes": 5876921,
+      "sha256": "41e84c358e9b56d5e945e51cde126c86caec6c185ffefb697babd781332aa4b4",
       "trim": {
-        "startSeconds": 3.903,
-        "durationSeconds": 17.739,
+        "startSeconds": 4.038,
+        "durationSeconds": 17.729,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
@@ -2702,26 +2702,26 @@
           "duration": "17.760000"
         }
       },
-      "ended": "2026-10-18T14:13:11.432Z"
+      "ended": "2026-10-19T07:32:59.213Z"
     },
     {
       "level": 6,
       "number": "07",
       "title": "La piste des cerveaux en dérapage",
       "chapter": 7,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:13:11.434Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:32:59.215Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332793507,
-          "relativeSeconds": 2.063,
+          "wallMs": 1792395181452,
+          "relativeSeconds": 2.222,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 6,
             "passed": false,
             "isolatedSetup": true,
@@ -2806,12 +2806,12 @@
           }
         },
         {
-          "wallMs": 1792332795758,
-          "relativeSeconds": 4.314,
+          "wallMs": 1792395183729,
+          "relativeSeconds": 4.499,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 6,
             "passed": false,
             "isolatedSetup": true,
@@ -2896,12 +2896,12 @@
           }
         },
         {
-          "wallMs": 1792332807327,
-          "relativeSeconds": 15.883,
+          "wallMs": 1792395195324,
+          "relativeSeconds": 16.094,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 6,
             "passed": true,
             "isolatedSetup": true,
@@ -2996,7 +2996,7 @@
       "url": "http://127.0.0.1:48761/?atelier=6",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 6,
         "passed": true,
         "isolatedSetup": true,
@@ -3088,19 +3088,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332808461,
-      "rawVideo": "_raw/atelier-07/page@9aed62aebbb4c5c813bee53428752305.webm",
+      "closedWallMs": 1792395196452,
+      "rawVideo": "_raw/atelier-07/page@b05efd6cf07c4d403b1524a97d541fe6.webm",
       "video": "atelier-07.mp4",
-      "videoBytes": 7495772,
-      "sha256": "03b80cecb473ad78bec23cf48e6832cc30802ddaa592f31fc1af4a881b4fa45d",
+      "videoBytes": 7485035,
+      "sha256": "fda54532a125cd326d7beab4d8585d37011678cd06f8bcfab9793244144fa844",
       "trim": {
-        "startSeconds": 3.964,
-        "durationSeconds": 12.918999999999999,
+        "startSeconds": 4.149,
+        "durationSeconds": 12.945,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 12.88
+        "actualDurationSeconds": 12.96
       },
       "media": {
         "programs": [],
@@ -3110,33 +3110,33 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "322"
+            "nb_frames": "324"
           }
         ],
         "format": {
-          "duration": "12.880000"
+          "duration": "12.960000"
         }
       },
-      "ended": "2026-10-18T14:13:29.895Z"
+      "ended": "2026-10-19T07:33:17.873Z"
     },
     {
       "level": 7,
       "number": "08",
       "title": "La préhistoire des protections collectives",
       "chapter": 8,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:13:29.898Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:33:17.876Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332812107,
-          "relativeSeconds": 2.2,
+          "wallMs": 1792395200135,
+          "relativeSeconds": 2.251,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 7,
             "passed": false,
             "isolatedSetup": true,
@@ -3221,12 +3221,12 @@
           }
         },
         {
-          "wallMs": 1792332814256,
-          "relativeSeconds": 4.349,
+          "wallMs": 1792395202285,
+          "relativeSeconds": 4.401,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 7,
             "passed": false,
             "isolatedSetup": true,
@@ -3311,12 +3311,12 @@
           }
         },
         {
-          "wallMs": 1792332830608,
-          "relativeSeconds": 20.701,
+          "wallMs": 1792395218582,
+          "relativeSeconds": 20.698,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 7,
             "passed": true,
             "isolatedSetup": true,
@@ -3415,7 +3415,7 @@
       "url": "http://127.0.0.1:48761/?atelier=7",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 7,
         "passed": true,
         "isolatedSetup": true,
@@ -3511,19 +3511,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332831848,
-      "rawVideo": "_raw/atelier-08/page@7949c7812ca048358004bf61014216cb.webm",
+      "closedWallMs": 1792395219784,
+      "rawVideo": "_raw/atelier-08/page@e96d6a8d83a7ca695ac8aee1132ca18d.webm",
       "video": "atelier-08.mp4",
-      "videoBytes": 7667737,
-      "sha256": "345c6905de697dc76791b73af923c726666d19a0a740f7139d3a12e89c4e4ea1",
+      "videoBytes": 7315904,
+      "sha256": "2713d918dd7e380757c7387c19c884fcd5b4942d53bbb725c6739b03564280af",
       "trim": {
-        "startSeconds": 3.999,
-        "durationSeconds": 17.702,
+        "startSeconds": 4.051,
+        "durationSeconds": 17.647,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 17.72
+        "actualDurationSeconds": 17.64
       },
       "media": {
         "programs": [],
@@ -3533,33 +3533,33 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "443"
+            "nb_frames": "441"
           }
         ],
         "format": {
-          "duration": "17.720000"
+          "duration": "17.640000"
         }
       },
-      "ended": "2026-10-18T14:13:53.356Z"
+      "ended": "2026-10-19T07:33:41.321Z"
     },
     {
       "level": 8,
       "number": "09",
       "title": "Aurélien, tyran aux bras courts",
       "chapter": 5,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:13:53.359Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:33:41.323Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332835419,
-          "relativeSeconds": 2.053,
+          "wallMs": 1792395223477,
+          "relativeSeconds": 2.145,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 8,
             "passed": false,
             "isolatedSetup": true,
@@ -3644,12 +3644,12 @@
           }
         },
         {
-          "wallMs": 1792332837682,
-          "relativeSeconds": 4.316,
+          "wallMs": 1792395225627,
+          "relativeSeconds": 4.295,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 8,
             "passed": false,
             "isolatedSetup": true,
@@ -3734,12 +3734,12 @@
           }
         },
         {
-          "wallMs": 1792332850105,
-          "relativeSeconds": 16.739,
+          "wallMs": 1792395238112,
+          "relativeSeconds": 16.78,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 8,
             "passed": true,
             "isolatedSetup": true,
@@ -3838,7 +3838,7 @@
       "url": "http://127.0.0.1:48761/?atelier=8",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 8,
         "passed": true,
         "isolatedSetup": true,
@@ -3934,19 +3934,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332851271,
-      "rawVideo": "_raw/atelier-09/page@c531d148f4342244af968abb3e2bd6c9.webm",
+      "closedWallMs": 1792395239410,
+      "rawVideo": "_raw/atelier-09/page@06d9fe7724e93f922d6451bc5c25faa9.webm",
       "video": "atelier-09.mp4",
-      "videoBytes": 3953990,
-      "sha256": "aaf68a813239d4e6daffe24d9048ff88001156b0f4496da51a890644eee7ed3a",
+      "videoBytes": 3981785,
+      "sha256": "6f035a3cb16293062ff8b3d3060b3725ec1feacf6b4f46e06f60ecac9041a313",
       "trim": {
-        "startSeconds": 3.966,
-        "durationSeconds": 13.773,
+        "startSeconds": 3.945,
+        "durationSeconds": 13.835,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 13.76
+        "actualDurationSeconds": 13.84
       },
       "media": {
         "programs": [],
@@ -3956,33 +3956,33 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "344"
+            "nb_frames": "346"
           }
         ],
         "format": {
-          "duration": "13.760000"
+          "duration": "13.840000"
         }
       },
-      "ended": "2026-10-18T14:14:12.374Z"
+      "ended": "2026-10-19T07:34:00.569Z"
     },
     {
       "level": 9,
       "number": "10",
       "title": "Le chantier des compteurs affolés",
       "chapter": 9,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:14:12.377Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:34:00.571Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332854427,
-          "relativeSeconds": 2.043,
+          "wallMs": 1792395242831,
+          "relativeSeconds": 2.251,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 9,
             "passed": false,
             "isolatedSetup": true,
@@ -4067,12 +4067,12 @@
           }
         },
         {
-          "wallMs": 1792332856653,
-          "relativeSeconds": 4.269,
+          "wallMs": 1792395245116,
+          "relativeSeconds": 4.536,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 9,
             "passed": false,
             "isolatedSetup": true,
@@ -4157,12 +4157,12 @@
           }
         },
         {
-          "wallMs": 1792332868306,
-          "relativeSeconds": 15.922,
+          "wallMs": 1792395256726,
+          "relativeSeconds": 16.146,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 9,
             "passed": true,
             "isolatedSetup": true,
@@ -4257,7 +4257,7 @@
       "url": "http://127.0.0.1:48761/?atelier=9",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 9,
         "passed": true,
         "isolatedSetup": true,
@@ -4349,19 +4349,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332869576,
-      "rawVideo": "_raw/atelier-10/page@e0ab4e3dd7f1458e0bb521ab84b9a840.webm",
+      "closedWallMs": 1792395258029,
+      "rawVideo": "_raw/atelier-10/page@befbef6ea18a39b2f488355169ec7d51.webm",
       "video": "atelier-10.mp4",
-      "videoBytes": 9938435,
-      "sha256": "4ce4f4dfe487b1a9996790929a25205dd84e559540cdc3a27b7ecf974ff7a3c9",
+      "videoBytes": 9908145,
+      "sha256": "2deffc9b784a1d20b71e09f784dcb727827ef26a80e230fd7e496e694c778969",
       "trim": {
-        "startSeconds": 3.919,
-        "durationSeconds": 13.003,
+        "startSeconds": 4.186,
+        "durationSeconds": 12.96,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 13.04
+        "actualDurationSeconds": 12.96
       },
       "media": {
         "programs": [],
@@ -4371,33 +4371,33 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "326"
+            "nb_frames": "324"
           }
         ],
         "format": {
-          "duration": "13.040000"
+          "duration": "12.960000"
         }
       },
-      "ended": "2026-10-18T14:14:30.994Z"
+      "ended": "2026-10-19T07:34:19.680Z"
     },
     {
       "level": 10,
       "number": "11",
       "title": "L’incident qui ne passera plus",
       "chapter": 10,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:14:30.996Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:34:19.682Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332873136,
-          "relativeSeconds": 2.132,
+          "wallMs": 1792395262011,
+          "relativeSeconds": 2.32,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 10,
             "passed": false,
             "isolatedSetup": true,
@@ -4482,12 +4482,12 @@
           }
         },
         {
-          "wallMs": 1792332875284,
-          "relativeSeconds": 4.28,
+          "wallMs": 1792395264176,
+          "relativeSeconds": 4.485,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 10,
             "passed": false,
             "isolatedSetup": true,
@@ -4572,12 +4572,12 @@
           }
         },
         {
-          "wallMs": 1792332891635,
-          "relativeSeconds": 20.631,
+          "wallMs": 1792395280493,
+          "relativeSeconds": 20.802,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 10,
             "passed": true,
             "isolatedSetup": true,
@@ -4676,7 +4676,7 @@
       "url": "http://127.0.0.1:48761/?atelier=10",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 10,
         "passed": true,
         "isolatedSetup": true,
@@ -4772,19 +4772,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332892885,
-      "rawVideo": "_raw/atelier-11/page@0beae4e997a7a3868930262e6bd69d42.webm",
+      "closedWallMs": 1792395281761,
+      "rawVideo": "_raw/atelier-11/page@7df3fa93dc5d2427b4b2378acce089e0.webm",
       "video": "atelier-11.mp4",
-      "videoBytes": 3888038,
-      "sha256": "bc5f5c6e867dd9ff0919bf7e5eb93da70d182050ae27f66a08fb296d3eb06c19",
+      "videoBytes": 3985842,
+      "sha256": "411674a432e33a82ccf5326e45eddc4265264b3dcf8bf08fc4ae4c4a627c2478",
       "trim": {
-        "startSeconds": 3.93,
-        "durationSeconds": 17.701,
+        "startSeconds": 4.135,
+        "durationSeconds": 17.667,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 17.68
+        "actualDurationSeconds": 17.64
       },
       "media": {
         "programs": [],
@@ -4794,33 +4794,33 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "442"
+            "nb_frames": "441"
           }
         ],
         "format": {
-          "duration": "17.680000"
+          "duration": "17.640000"
         }
       },
-      "ended": "2026-10-18T14:14:54.333Z"
+      "ended": "2026-10-19T07:34:43.098Z"
     },
     {
       "level": 11,
       "number": "12",
       "title": "L’audit des squelettes du grenier",
       "chapter": 9,
-      "version": "0.13.4",
-      "started": "2026-10-18T14:14:54.338Z",
+      "version": "0.13.5",
+      "started": "2026-10-19T07:34:43.101Z",
       "audio": false,
       "source": "captured Unity browser runtime",
       "isolatedContext": true,
       "events": [
         {
-          "wallMs": 1792332896786,
-          "relativeSeconds": 2.428,
+          "wallMs": 1792395285323,
+          "relativeSeconds": 2.184,
           "source": "console",
           "value": {
             "phase": "ready",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 11,
             "passed": false,
             "isolatedSetup": true,
@@ -4905,12 +4905,12 @@
           }
         },
         {
-          "wallMs": 1792332899039,
-          "relativeSeconds": 4.681,
+          "wallMs": 1792395287477,
+          "relativeSeconds": 4.338,
           "source": "console",
           "value": {
             "phase": "capture",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 11,
             "passed": false,
             "isolatedSetup": true,
@@ -4995,12 +4995,12 @@
           }
         },
         {
-          "wallMs": 1792332910459,
-          "relativeSeconds": 16.101,
+          "wallMs": 1792395298946,
+          "relativeSeconds": 15.807,
           "source": "console",
           "value": {
             "phase": "completed",
-            "version": "0.13.4",
+            "version": "0.13.5",
             "level": 11,
             "passed": true,
             "isolatedSetup": true,
@@ -5096,7 +5096,7 @@
       "url": "http://127.0.0.1:48761/?atelier=11",
       "runtime": {
         "phase": "completed",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "level": 11,
         "passed": true,
         "isolatedSetup": true,
@@ -5189,19 +5189,19 @@
         "renderWidth": 1280,
         "renderHeight": 720
       },
-      "closedWallMs": 1792332911618,
-      "rawVideo": "_raw/atelier-12/page@0e87e5b09ffa392db222a3872ce5217b.webm",
+      "closedWallMs": 1792395300249,
+      "rawVideo": "_raw/atelier-12/page@bf3e04413f67225d9d4b4482fef15310.webm",
       "video": "atelier-12.mp4",
-      "videoBytes": 2519131,
-      "sha256": "5c9777d9673aaa1031f9a9309c5d04648e5e01bb72b71ad2fd04e6fe186ec56f",
+      "videoBytes": 2344559,
+      "sha256": "6135775d1b3b31f36a5cb0e9887aa7d1ee220ee27b5965f90cc5782e28daae91",
       "trim": {
-        "startSeconds": 4.331,
-        "durationSeconds": 12.77,
+        "startSeconds": 3.988,
+        "durationSeconds": 12.819000000000003,
         "preRollSeconds": 0.35,
         "endRollSeconds": 1,
         "clock": "Node wall clock at Playwright newPage; raw source retained",
         "approximate": true,
-        "actualDurationSeconds": 12.76
+        "actualDurationSeconds": 12.84
       },
       "media": {
         "programs": [],
@@ -5211,14 +5211,14 @@
             "codec_name": "h264",
             "width": 1280,
             "height": 720,
-            "nb_frames": "319"
+            "nb_frames": "321"
           }
         ],
         "format": {
-          "duration": "12.760000"
+          "duration": "12.840000"
         }
       },
-      "ended": "2026-10-18T14:15:12.698Z"
+      "ended": "2026-10-19T07:35:01.366Z"
     }
   ],
   "browserVersion": "155.0.4283.62",
@@ -5226,7 +5226,7 @@
   "knownFailedPreparationCount": 1,
   "title": {
     "video": "accueil-dylan.mp4",
-    "version": "0.13.4",
-    "sha256": "2732620942eeb0ab8274fc72c3e023ccee60d61e59d337635bd4e9a7127b3d81"
+    "version": "0.13.5",
+    "sha256": "1825083ecf4b4e7d1b6fbfa13c647118cd4899c35c8fe0bf92c56a9425a8b503"
   }
 }
